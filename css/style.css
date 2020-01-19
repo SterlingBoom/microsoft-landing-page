@@ -122,6 +122,26 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.bgg{
-    background-color: rgb(55, 122, 122);
+.foot{
+    background: rgb(218, 217, 216);
+}
+.nav-link{
+    font-size: .7rem;
+}
+.soft{
+    font-size: .7rem;
+    margin-left: 50px;
+    font-family:  "Segoe UI","Helvetica Neue", Helvetica, Arial,sans-serif;
+}
+.navbar-brand{
+    font-size: .9rem;
+    padding-right: 400px;
+    margin-left: 30px;
+}
+.navbar-nav li{
+    font-family:  "Segoe UI","Helvetica Neue", Helvetica, Arial,sans-serif;
+
+}
+.gbe{
+
 }
