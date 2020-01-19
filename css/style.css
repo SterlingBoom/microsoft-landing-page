@@ -39,16 +39,16 @@
     padding-left: 5px;
 }
 .dropdown{
-    margin-left: 250px;
+    margin-left: 200px;
     font-size: .8rem;
 }
 .list{
     margin-right: 2px;
 }
 .dropdown-menu{
-    width: 1200px;
+    width: 1100px;
     position: absolute;
-    left: -800px;
+    left: -900px;
 }
 .first-carousel {
     margin-bottom: 0rem;
