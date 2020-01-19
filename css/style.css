@@ -1,0 +1,127 @@
+.navbar-toggler span {
+    display: block;
+    background-color: #000000;
+    height: 1px;
+    width: 25px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    left: 0;
+    opacity: 1;
+}
+.navbar-brand{
+    padding-right: 100px;
+    color: #000000;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box{
+    padding-right: 50px;
+    border: 1px dotted #242323fa;
+    width: 25px;
+    height: 45px;
+}
+.cart{
+    color: #0c0909;
+    font-size: 1.2rem;
+    opacity: .5;
+}
+
+.nav-link{
+    color: #000000;
+    margin-right: 0px;
+    font-size: 1.0rem;
+   
+}
+.nav-item{
+    margin-right:0px;
+    padding-left: 5px;
+}
+.dropdown{
+    margin-left: 250px;
+    font-size: .8rem;
+}
+.list{
+    margin-right: 2px;
+}
+.dropdown-menu{
+    width: 1200px;
+    position: absolute;
+    left: -800px;
+}
+.first-carousel {
+    margin-bottom: 0rem;
+}
+.carousel-caption {
+   text-align: right;
+    z-index: 10;
+    font-size: 1.1rem;
+    color: #000000;
+}
+.carousel-item {
+    height: 30rem;
+    background-color: #fff;
+}
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30rem;
+    background-size: cover;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.carousel-caption h4{
+    margin: 0;
+}
+
+.text-align{
+    text-align: center;
+}
+.black{
+    background: black;
+    color: #fff;
+}
+.trans{
+    color: #000
+}
+.bg{
+    background: url(../images/coffee.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.rgt{
+    background: #000000;
+    margin-left: 50px;
+    border: 1px solid black;
+    
+}
+.bold{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.drive-caption{
+    padding-top: 300px;
+    
+}
+.white{
+    color: #fff;
+    background: #000;
+    margin-left: 50px;
+    
+}
+.follow{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bgg{
+    background-color: rgb(55, 122, 122);
+}
