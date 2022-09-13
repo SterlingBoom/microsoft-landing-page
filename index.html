@@ -11,104 +11,146 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-md">
-        <div class="container pt-2">
+        <div class="container">
            
-            <button type="button" class="navbar-toggler collapsed mr-auto" data-toggle="collapse" data-target="#menu" 
+            <button type="button" class="navbar-toggler collapsed " data-toggle="collapse" data-target="#menu" 
             arials-control="menu" aria-expanded="false" aria-label="Toggle navigation">
                 <span></span>
                 <span></span>
-                <span></span>  
-            <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-lg-none mr-auto box" 
+                <span></span>
+            </button>  
+            <button type="button" class="btn btn-link nav-search d-lg-none mr-auto " 
             data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-expanded="false">
-            <span class="fa fa-search search mr-auto" aria-hidden="true"></span>
+            <span class="fa fa-search search" aria-hidden="true"></span>
             </button>
            
-            </button> 
-            <a href="index.html" class="navbar-brand mt-auto "><img src="images/msSIGN.PNG">Microsoft</a> 
-            <a href="index.html"> <i class="fa fa-shopping-cart mr-auto cart d-lg-none"></i></a>
-            <a href="index.html"> <i class="fa fa-globe pr-3 cart d-lg-none"></i></a>
+        
+            <a href="index.html" class="navbar-brand mr-auto"><img src="images/msSIGN.PNG">Microsoft</a> 
+            <a href="index.html"> <i class="fa fa-shopping-cart mr-auto pr-3 d-lg-none blk"></i></a>
+            <a href="index.html"> <i class="fa fa-globe pr-3 d-lg-none blk"></i></a>
             <div class="collapse navbar-collapse" id="menu">
-                <div class="navbar-nav">
-                    <li class="nav-item "> <a href="#" class="nav-link ">Office</a></li>
-                    <li class="nav-item "> <a href="#" class="nav-link">Windows</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link ">Xbox</a></li>
-                    <li class="nav-item "><a href="#" class="nav-link ">Support</a></li>
+                <ul class="navbar-nav" id="same">
+
+                    <li class="nav-item"> <a href="#" class="nav-link dd">Office</a></li>
+                    <li class="nav-item"> <a href="#" class="nav-link dd">Windows</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link dd">Xbox</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link dd">Support</a></li>
+                    <li class="nav-item d-lg-none">
+                        <a data-toggle="collapse" class="collapsed nav-link" href="#software" >Software <i class="fa fa-angle-up icon"></i></a>
+                        <div id="software" class="collapse" data-parent="#same">
+                            <p>Windows apps</p>
+                            <p>One drive</p>
+                            <p>Outlook</p>
+                            <p>Sype</p>
+                            <p>OneNote</p>
+                            <p>microsoft Edge</p>
+                        </div>
+                    </li>
+
+                    <li class="nav-item d-lg-none">
+                        <a data-toggle="collapse" class="collapsed nav-link" href="#Ent">Entertainment <i class="fa fa-angle-up icon"></i></a>
+                        <div id="software" class="collapse">
+                            <div id="Ent" class="collapse" data-parent="#same">
+                            <p>Windows digital games</p>
+    
+                        </div>
+                    </li>
+                    <li class="nav-item d-lg-none">
+                        <a data-toggle="collapse" class="collapsed nav-link" href="#biz">Business <i class="fa fa-angle-up icon"></i></a>
+                        <div id="biz" class="collapse" data-parent="#same">
+                            <p>Microsoft Azure</p>
+                            <p>Microsoft Dynamics 365</p>
+                            <p>Microsoft 365</p>
+                            <p>Microsoft Industry</p>
+                            <p>Data Platform</p>
+                        </div>
+                    </li>
+                    <li class="nav-item d-lg-none">
+                        <a data-toggle="collapse" class="collapsed nav-link" href="#dt">Developer & IT <i class="fa fa-angle-up icon"></i></a>
+                        <div id="dt" class="collapse" data-parent="#same">
+                            <p>.NET</p>
+                            <p>Visual studio</p>
+                            <p>Windows Server</p>
+                            <p>Windows Server</p>
+                            <p>Window Dev Center</p>
+                            <p>Docs</p>
+                        </div>
+                    </li>
+                    <li class="nav-item d-lg-none">
+                        <a data-toggle="collapse" class="collapsed nav-link" href="#ot">Other <i class="fa fa-angle-up icon"></i></a>
+                        <div id="ot" class="collapse" data-parent="#same">
+                            <p>Microsoft Store</p>
+                            <p>Free downloads & Security</p>
+                            <p>Education</p>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link d-lg-none">View site map</a>
+                    </li>
+            
+
+                </ul>
+            </div>
                 
-                <div class="collapse navbar-collapse" id="menu">
-                <div class="navbar-nav">
-                    <div class="nav-item dropdown mr-4">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" 
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown mr-4">
+                        <a class="nav-link dropdown-toggle d-none d-md-block" href="#" id="dropdown01" 
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Microsoft</a>
-                           <div class="dropdown-menu" aria-labelledby="dropdown01">
-                               <div class="container">
-                               <div class="row">
-                                   <div class="col-2-">
-                              <a class="dropdown-item" href="#">Software</a>
-                              <a class="dropdown-item"  href="#">OneDrive</a>
-                              <a class="dropdown-item" href="#">Outlook</a> 
-                              <a class="dropdown-item"  href="#">Skype</a>
-                              <a class="dropdown-item"  href="#">OneNote</a>
-                              </div>
-                              <div class="col-2">
-                                <a class="dropdown-item" href="#">Entertainment</a>
-                                <a class="dropdown-item"  href="#">Windows digital games</a>
-                                </div>
-                                <div class="col-2-">
-                                    <a class="dropdown-item" href="#">Business</a>
-                                    <a class="dropdown-item"  href="#">Microsoft Azure</a>
-                                    <a class="dropdown-item" href="#">Microsoft Dynamics 365</a> 
-                                    <a class="dropdown-item"  href="#">Microsoft 365</a>
-                                    <a class="dropdown-item"  href="#">Microsoft Industry</a>
-                                    <a class="dropdown-item"  href="#">Data platform</a>
-                                     
-
-                                </div>
-                                <div class="col-3">
-                                    <a class="dropdown-item" href="#">Developer & IT</a>
-                                    <a class="dropdown-item"  href="#">.NET</a>
-                                    <a class="dropdown-item" href="#">Visual Studio</a> 
-                                    <a class="dropdown-item"  href="#">Window server</a>
-                                    <a class="dropdown-item"  href="#">Window Dev centre</a>
-                                    <a class="dropdown-item"  href="#">Docs</a>
-                                     
-
-                                </div>
-                                <div class="col-3">
+                        <div class="dropdown-menu " aria-labelledby="dropdown01">
+                            <div class="container">
+                                <div class="row">
+                                   <div class="col-2">
+                                      <a class="dropdown-item" href="#">Software</a>
+                                      <a class="dropdown-item"  href="#">OneDrive</a>
+                                      <a class="dropdown-item" href="#">Outlook</a> 
+                                      <a class="dropdown-item"  href="#">Skype</a>
+                                     <a class="dropdown-item"  href="#">OneNote</a>
+                                   </div>
+                                   <div class="col-2">
+                                      <a class="dropdown-item" href="#">Entertainment</a>
+                                      <a class="dropdown-item"  href="#">Windows digital games</a>
+                                   </div>
+                                   <div class="col-2">
+                                      <a class="dropdown-item" href="#">Business</a>
+                                      <a class="dropdown-item"  href="#">Microsoft Azure</a>
+                                      <a class="dropdown-item" href="#">Microsoft Dynamics 365</a> 
+                                      <a class="dropdown-item"  href="#">Microsoft 365</a>
+                                      <a class="dropdown-item"  href="#">Microsoft Industry</a>
+                                      <a class="dropdown-item"  href="#">Data platform</a>
+                                   </div>
+                                    <div class="col-3">
+                                      <a class="dropdown-item" href="#">Developer & IT</a>
+                                      <a class="dropdown-item"  href="#">.NET</a>
+                                      <a class="dropdown-item" href="#">Visual Studio</a> 
+                                      <a class="dropdown-item"  href="#">Window server</a>
+                                      <a class="dropdown-item"  href="#">Window Dev centre</a>
+                                      <a class="dropdown-item"  href="#">Docs</a>
+                                    </div>
+                                    <div class="col-3">
                                     <a class="dropdown-item" href="#">Others</a>
                                     <a class="dropdown-item"  href="#">Microsoft Store</a>
                                     <a class="dropdown-item" href="#">Free downloads and security</a> 
                                     <a class="dropdown-item"  href="#">Education</a>
                                     </div>
-                               </div>
+                                </div>
                                     
-                                
-                                </div>
-                            </div>
-                                
-                                </ul>
-                                    </div>
-                                </div>
-                            </div>
-                               </div>
-                            </div>  
-                            </div>
-                    
-                    <ul class="navbar-nav">
-                        <li class="nav-item gen">
-                            <div class="d-none d-lg-block">
-                                <button type="button" class="btn btn-link nav-search" 
-            data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-expanded="false">
-            <span class="fa fa-search search" aria-hidden="true"></span>
-            </button>
-           <a href="index.html"> <i class="fa fa-shopping-cart pr-3 right mr-auto"></i></a>
-            
-                               
-                                    </div>
-                                    </li>
-                                    </ul>
-                                </div> 
                             </div>
                         </div>
+                    </li>  
+                    <li class="nav-item gen">
+                        <a class="d-none d-lg-block nav-link ">
+                            <span class="fa fa-search search"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link"> <i class="fa fa-shopping-cart d-none d-md-block "></i></a>
+
+                    </li>  
+                                
+                </ul>
+            </div>
+        </div>                  
     </nav>
                     
             
@@ -136,13 +178,13 @@
                         <div class="carousel-item">
                             <img class="first-slide" src="images/coffee.jpg" alt="soft" title="soft">
                             <div class="carousel-container">
-                                <div class="carousel-caption">
+                                <div class="carousel-caption middle">
                                    
-                                    <h5 class="message middle">This is your 365</h5>
-                                    <p class="message middle">Discover whats posiible everyday with  Office 365</p>
-                                   <span> <a href="#" class="btn btn-md btn-message black" 
-                                    role="button">FOR UP TO 6 PEOPLE &gt;</a></span>
-                                    <span><a href="#" class="btn btn-md btn-message trans middle"  role="button">FOR 1 PERSON</span>
+                                    <h5 class="message">This is your 365</h5>
+                                    <p class="message">Discover whats posiible everyday with  Office 365</p>
+                                    <a href="#" class="btn btn-md btn-message black" 
+                                    role="button">FOR UP TO 6 PEOPLE &gt;</a>
+                                    <a href="#" class="btn btn-md btn-message trans"  role="button">FOR 1 PERSON
                                    </div>
 
                                 
@@ -162,7 +204,7 @@
             <section class="Two">
                 <div class="container">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-md-3  col-sm-6">
                             <div class="col-3bx">
                                 <img src="images/Mtone.PNG">
                                 <h4>Microsoft Store</h4>
@@ -171,7 +213,7 @@
                  <a href="#">SHOP AT THE MICROSOFT STORE </a>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-md-3  col-sm-6">
                             <div class="col-3bx">
                                 <img src="images/MTTWO.PNG">
                                 <h4>OneNote</h4>
@@ -180,7 +222,7 @@
                     <a href="#">DOWNLOAD ONENOTE FOR FREE &gt;</a> 
                   </div>
               </div>
-              <div class="col-3">
+              <div class="col-md-3  col-sm-6">
                 <div class="col-3bx">
                     <img src="images/MTthree.PNG">
                     <h4>Bing</h4>
@@ -189,7 +231,7 @@
         <a href="#">SEARCH WITH BING &gt;</a> 
       </div>
   </div>
-  <div class="col-3">
+  <div class="col-md-3 col-sm-6">
     <div class="col-3bx">
         <img src="images/MTfour.PNG">
         <h4>Outlook for iOS and Android</h4>
@@ -222,7 +264,7 @@
                     <div class="container">
                         <h4>For Work</h4>
                         <div class="row">
-                            <div class="col-3">
+                            <div class="col-md-3  col-sm-6">
                                 <div class="col-3w">
                                     <img src="images/msfive.PNG">
                                    <h5> Windows 10 Enterprise</h5>
@@ -232,7 +274,7 @@
                        
                                 </div>
                             </div>
-                            <div class="col-3">
+                            <div class="col-md-3  col-sm-6">
                                 <div class="col-3w">
                                     <img src="images/mssix.PNG">
                                    <h5>Office 365 for Business </h5>
@@ -241,7 +283,7 @@
 
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3  col-sm-6">
                         <div class="col-3w">
                             <img src="images/msseven.PNG">
                            <h5> Get Visual Studio 2019</h5>
@@ -250,7 +292,7 @@
 
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-3  col-sm-6">
                 <div class="col-3w">
                     <img src="images/mseight.PNG">
                    <h5> Microsoft Teams</h5>
@@ -273,7 +315,7 @@
         <div class="soft">
         
             <div class="row">
-                <div class="col-2 pt-4">
+                <div class="col-md-2 col-sm-6 pt-4">
                     <div class="col-2f">
                         <h5>Microsoft store</h5>
                         <p>Account profile</p>
@@ -281,19 +323,19 @@
                          <p>Order tracking</p>
                      </div>
                  </div>
-             <div class="col-2 pt-4">
+             <div class="col-md-2  col-sm-6 pt-4">
                     <div class="col-2f">
                         <h5>Education</h5>
                         <p>Office 365 for schools</p>
                     </div>
             </div>
-            <div class="col-2 pt-4">
+            <div class="col-md-2  col-sm-6 pt-4">
                     <div class="col-2f">
                         <h5>Enterprise</h5>
                         <p>Microsoft Azure</p>
                     </div> 
             </div>
-            <div class="col-2 pt-4">
+            <div class="col-md-2  col-sm-6 pt-4">
                 <div class="col-2f">
                     <h5>Developer</h5>
                     <p>Microsoft visual studio</p>
@@ -301,7 +343,7 @@
                     <p>Office Dev centre</p>
                 </div>
             </div>
-            <div class="col-2 pt-4">
+            <div class="col-md-2  col-sm-6 pt-4">
                 <div class="col-2f">
                     <h5>Companys</h5>
                     <p>Careers</p>
